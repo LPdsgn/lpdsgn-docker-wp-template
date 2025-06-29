@@ -63,6 +63,7 @@ yarn-error.log
 # Environment files
 .env
 .env.*
+!.env.example
 
 # Docker volumes (if you don't want to track volume data)
 db_data/
