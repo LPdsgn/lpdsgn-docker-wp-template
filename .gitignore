@@ -1,0 +1,102 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/updraft/
+/wp-content/wp-cache-config.php
+/wp-content/plugins/hello.php
+
+# WordPress configuration
+/wp-config.php
+/wp-config-local.php
+
+# WordPress content
+/wp-content/advanced-cache.php
+
+
+# WordPress themes (uncomment to track specific themes only)
+# /wp-content/themes/*
+# !/wp-content/themes/your-custom-theme/
+
+# WordPress plugins (uncomment to track specific plugins only)
+# /wp-content/plugins/*
+# !/wp-content/plugins/your-custom-plugin/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/
+composer.lock
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.*
+
+# Docker volumes (if you don't want to track volume data)
+db_data/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# WordPress default files
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+index.php
+
+# WordPress default themes (optional - remove if you want to track them)
+/wp-content/themes/twenty*/
+
+# Security
+.htaccess
+.htpasswd
+
+# WP-CLI scripts - DO NOT IGNORE
+!/wp-cli-scripts/
+!/wp-cli-scripts/**
